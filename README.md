@@ -94,7 +94,6 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/patelatwork/patelatwork/main/profile-summary-card-output/tokyonight/3-stats.svg" width="32.5%" alt="Stats" />
 <img src="https://raw.githubusercontent.com/patelatwork/patelatwork/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="32.5%" alt="Top languages by repo" />
 <img src="https://raw.githubusercontent.com/patelatwork/patelatwork/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="32.5%" alt="Top languages by commit" />
 
@@ -103,7 +102,6 @@
 <details>
   <summary>📊 More stats</summary>
   <br>
-  <img src="https://raw.githubusercontent.com/patelatwork/patelatwork/main/profile-summary-card-output/tokyonight/0-profile-details.svg" width="90%" alt="Profile details" />
   <img src="https://raw.githubusercontent.com/patelatwork/patelatwork/main/profile-summary-card-output/tokyonight/4-productive-time.svg" width="45%" alt="Productive time" />
 </details>
 
