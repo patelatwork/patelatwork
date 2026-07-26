@@ -1,0 +1,30 @@
+name: GitHub Profile Summary Cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-summary-cards
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # The default GITHUB_TOKEN is enough for public data.
+          # If the run fails on permissions, create a classic PAT with
+          # `read:user` + `repo` scope and store it as SUMMARY_GITHUB_TOKEN.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          UTC_OFFSET: 5
+          AUTO_PUSH: true
+          THEME: "tokyonight"
