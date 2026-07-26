@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://memento-lemon.vercel.app/">
-    <img src="header.svg" alt="Hi there! I'm Dhruv Patel" width="800" />
+    <img src="header.svg?v=2" alt="Hi there! I'm Dhruv Patel" width="800" />
   </a>
 </div>
 
